@@ -12,16 +12,16 @@ export const BlockchainConfig = createContext();
 export const BlockchainProvider = ({ children }) => {
 
   // define useState for currentAccount
-
+  const [currentuser,setCurrentuser]=useState("")
   // define environment variables here... 
-  const contr_addr
-  const NFT_STORAGE_TOKEN
+  const contr_addr=proceaa.env.REACT_APP_CONTRACT;
+  const NFT_STORAGE_TOKEN=  process.env.REACT_APP_PUBLIC_NFT_STORAGE_TOKEN;
 
   // define NFTStorage client here
-  const client;
+  const client= new NFTStorage({"token:"});
 
 
-  const provider;
+  const provider=new eth.providers.Web3Provider(window.ethereum);
   const signer;
   const contract;
 
