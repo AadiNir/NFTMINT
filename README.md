@@ -18,5 +18,3 @@ contract addr = "0x198af7665132a5eD4C1caD85Da3E9c6A79C4271b"
  - learn Hardhat(basics) - https://www.youtube.com/watch?v=nNUpA0d6CFo&t=676s&pp=ygUQaGFyZGhhdCB0dXRvcmlhbA%3D%3D
 
 
-##NFT MINT
-This project helps you to convert your pictures into NFT hash using ipfs
